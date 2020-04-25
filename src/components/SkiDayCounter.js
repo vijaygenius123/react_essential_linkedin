@@ -1,16 +1,9 @@
 import React from 'react';
+import { calcGoalProgress } from '../utils'
 
 const SkiDayCounter = (props) => {
 
     const { total, powder, backCountry, goal } = props;
-
-    const getPercent = (decimal) => {
-        return decimal * 100 + '%';
-    }
-
-    const calcGoalProgress = (total, goal) => {
-        return getPercent(total / goal)
-    }
 
     return (
         <div>
