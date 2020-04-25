@@ -13,10 +13,38 @@ body{
     height: 33vh;
     border: 1px solid;
     margin: 8px;
+    border-radius: 10px;
 }
 
 .person h2{
-    background-color: aqua;
     margin: 0;
     padding: 8px;
+    border-radius: 10px;
+}
+
+.male{
+background-color: cornflowerblue;
+
+}
+
+.female{
+    background-color: plum;
+}
+
+.info{
+    display:flex;
+    height: 80%;
+    padding: 10px;
+}
+
+.info-pic{
+    flex:1;
+}
+
+.info-details{
+    flex:1;
+}
+
+.info-details>ul{
+    list-style: none;
 }

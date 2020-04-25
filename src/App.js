@@ -13,7 +13,7 @@ const data = {
 
 const App = () => (
     <div className="App">
-        <h1>Ski Day Counter</h1>
+        <h1>Random People</h1>
         <PeopleList />
     </div>
 )
