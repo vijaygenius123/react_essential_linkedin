@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 
 import SkiDayCounter from './components/SkiDayCounter'
-
+import PeopleList from './components/PeopleList'
 
 const data = {
     total: 50,
@@ -14,7 +14,7 @@ const data = {
 const App = () => (
     <div className="App">
         <h1>Ski Day Counter</h1>
-        <SkiDayCounter {...data} />
+        <PeopleList />
     </div>
 )
 
